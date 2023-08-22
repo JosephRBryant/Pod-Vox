@@ -1,0 +1,24 @@
+{
+  "name": "pod-vox",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.ts",
+  "type": "module",
+  "scripts": {
+      "start": "npm run build && node ./dist/index.js",
+      "build": "tsc",
+      "test": "npm run build && vitest"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+      "@tsconfig/node-lts": "^18.12.3",
+      "@types/node": "^20.1.7",
+      "typescript": "^5.0.4",
+      "vitest": "^0.31.1"
+  },
+  "dependencies": {
+      "prettier": "^2.8.8"
+  }
+}

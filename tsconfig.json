@@ -1,0 +1,9 @@
+{
+    "compilerOptions": {
+        "outDir": "./dist",
+        "rootDir": "./src",
+        "sourceMap": true
+    },
+    "exclude": ["./node_modules"],
+    "extends": "@tsconfig/node-lts/tsconfig.json"
+}
